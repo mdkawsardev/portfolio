@@ -1,0 +1,402 @@
+/* media query for responsive of all devices */
+@media (max-width: 575.98px) {
+    /* header  */
+    .header {
+        height: 70vh;
+    }
+    .logo_box {
+        width: 100%;
+    }
+    .topbar {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .main_nav ul {
+        text-align: center;
+    }
+    .main_nav ul li {
+        margin: 5px 0;
+    }
+    .navbar-toggler {
+        margin: 0 auto;
+    }
+    .main_nav ul li:first-child {
+        margin-top: 20px;
+    }
+    /* header  */
+    /* banner section  */
+    .heading {
+        padding: 30px 20px 30px 20px;
+    }
+    .heading .child_h h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .child_h p {
+        line-height: 20px;
+    }
+    .main {
+        top: 45px;
+    }
+    
+    .animation1 {
+        width: 200px;
+        height: 200px;
+    }
+    .animation2 {
+        width: 250px;
+        height: 250px;
+    }
+    .animation3 {
+        width: 150px;
+        height: 150px;
+    }
+    /* banner section  */
+    /* about section  */
+    .common_section {
+        padding: 50px 0;
+    }
+    .title_heading h2 {
+        font-size: 35px;
+    }
+    .about_text {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .div {
+        padding: 0;
+    }
+    .mycounter {
+        padding: 10px;
+    }
+    .c_icon {
+        margin: 6px 0;
+    }
+    .c_icon i {
+        font-size: 22px;
+    }
+    .mycounter h4 {
+        font-size: 18px;
+    }
+    /* about section  */
+    /* skills section  */
+    .skill {
+        margin-top: 15px;
+    }
+    /* skills section  */
+    /* service section  */
+    .single_service {
+        padding: 20px 10px;
+        min-height: 350px;
+    }
+    .parent_single_service {
+        margin-top: 30px;
+    }
+    
+    
+    .single_service .service_icon i {
+        font-size: 30px;
+    }
+    .single_service h4 {
+        margin: 10px 0;
+    }
+    .parent_single_service .mybefore {
+        width: 245px;
+        height: 245px;
+    }
+    /* service section  */
+    /* portfolio section */
+    .filter-btn {
+        margin: 5px;
+    }
+    .single_portfolio {
+        width: 280px;
+        height: 240px;
+    }
+    .single_portfolio .visit {
+        bottom: -133px !important;
+        padding: 12px;
+    }
+    .single_portfolio .port_title {
+        top: 20%;
+    }
+    /* portfolio section */
+    /* testimonial  */
+    .t_item {
+        margin: 20px;
+        padding: 10px;
+    }
+    .progress-wrap {
+        right: 22px;
+        bottom: 22px;
+    }
+    /* testimonial  */
+    /* contact section  */
+    .coding {
+        margin: 0;
+    }
+    /* contact section  */
+    /* footer section  */
+    .info div {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .socials {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        margin-top: 15px;
+    }
+
+    /* footer section  */
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header  */
+    .header {
+        height: 80vh;
+        padding-top: 110px;
+    }
+    .main_nav ul li {
+        margin: 5px 0;
+    }
+    
+    .main_nav ul li:first-child {
+        margin-top: 20px;
+    }
+    /* header  */
+    /* banner section  */
+    .heading {
+        padding: 30px 20px 30px 20px;
+    }
+    .heading .child_h h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .main {
+        top: 45px;
+    }
+    .animation1 {
+        width: 200px;
+        height: 200px;
+    }
+    .animation2 {
+        width: 250px;
+        height: 250px;
+    }
+    .animation3 {
+        width: 150px;
+        height: 150px;
+    }
+    /* banner section  */
+    /* about section  */
+    .common_section {
+        padding: 50px 0;
+    }
+    .title_heading h2 {
+        font-size: 35px;
+    }
+    .about_text {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .div {
+        padding: 0;
+    }
+    .mycounter {
+        padding: 10px;
+    }
+    .c_icon {
+        margin: 6px 0;
+    }
+    .c_icon i {
+        font-size: 22px;
+    }
+    .mycounter h4 {
+        font-size: 18px;
+    }
+    /* about section  */
+    /* skills section  */
+    .skill {
+        margin-top: 15px;
+    }
+    /* skills section  */
+    /* service section  */
+    .single_service {
+        padding: 20px 10px;
+        min-height: 350px;
+    }
+    .parent_single_service {
+        margin-top: 30px;
+    }
+    
+    
+    .single_service .service_icon i {
+        font-size: 30px;
+    }
+    .single_service h4 {
+        margin: 10px 0;
+    }
+    .parent_single_service .mybefore {
+        width: 225px;
+        height: 225px;
+    }
+    /* service section  */
+    /* testimonial  */
+    .t_item {
+        margin: 20px;
+        padding: 10px;
+    }
+    .progress-wrap {
+        right: 22px;
+        bottom: 22px;
+    }
+    /* testimonial  */
+    /* footer section  */
+    .socials {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        margin-top: 15px;
+    }
+    /* footer section  */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header  */
+    .header {
+        height: 85vh;
+        padding-top: 110px;
+    }
+    .main_nav ul li {
+        margin: 5px 0;
+    }
+    
+    .main_nav ul li:first-child {
+        margin-top: 20px;
+    }
+    /* header  */
+    /* banner section  */
+    .heading {
+        padding: 30px 20px 30px 20px;
+    }
+    .heading .child_h h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main {
+        top: 45px;
+    }
+    .animation1 {
+        width: 200px;
+        height: 200px;
+    }
+    .animation2 {
+        width: 250px;
+        height: 250px;
+    }
+    .animation3 {
+        width: 150px;
+        height: 150px;
+    }
+    /* banner section  */
+    /* about section  */
+    .common_section {
+        padding: 50px 0;
+    }
+    .title_heading h2 {
+        font-size: 35px;
+    }
+    .about_text {
+        padding: 0 10px;
+    }
+    .mycounter {
+        padding: 10px;
+    }
+    .c_icon {
+        margin: 6px 0;
+    }
+    .c_icon i {
+        font-size: 22px;
+    }
+    .mycounter h4 {
+        font-size: 18px;
+    }
+    /* about section  */
+    /* service section  */
+    .single_service {
+        padding: 20px;
+    }
+    .single_service .service_icon i {
+        font-size: 40px;
+    }
+    .single_service h4 {
+        margin: 10px 0;
+    }
+    .parent_single_service .mybefore {
+        width: 315px;
+        height: 315px;
+    }
+    /* service section  */
+    /* testimonial  */
+    .t_item {
+        margin: 20px;
+        padding: 10px;
+    }
+    /* testimonial  */
+    /* footer section  */
+    .socials {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        margin-top: 15px;
+    }
+    /* footer section  */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header {
+        padding-top: 120px;
+    }
+    /* banner section  */
+    .heading {
+        padding: 80px 35px 50px 35px;
+    }
+
+    /* banner section  */
+    /* skills  */
+    .skill h4{
+        font-size: 23px;
+    }
+    /* skills  */
+    /* service section  */
+    .parent_single_service .mybefore {
+        width: 290px;
+        height: 290px;
+    }
+    .single_service {
+        padding: 15px;
+    }
+    .single_service .service_icon i {
+        font-size: 50px;
+    }
+    .t_item {
+        min-height: 462px;
+    }
+    /* service section  */
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* service section  */
+    .parent_single_service .mybefore {
+        width: 345px;
+        height: 345px;
+    }
+    .single_service {
+        padding: 25px;
+    }
+    .t_item {
+        min-height: 438px;
+    }
+    /* service section  */
+}
+@media (min-width: 1400px) {}
